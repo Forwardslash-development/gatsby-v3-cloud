@@ -1,4 +1,4 @@
-module.exports = {
+module.exports= {
   siteMetadata: {
     title: `Gatsby v3 Cloud App`,
     description: `V3 Gatsby.js build with CI to Gatsby cloud`,
@@ -31,6 +31,7 @@ module.exports = {
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+  `gatsby-plugin-offline`,
   ],
-}
+  'gatsby-plugin-emotion'
+};
