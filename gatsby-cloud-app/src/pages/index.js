@@ -1,7 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout/"
 import SEO from "../components/seo"
 
@@ -10,7 +8,7 @@ const IndexPage = () => (
     <SEO title="Forwardslash Development" />
     <StaticImage
       src="../images/logo512.png"
-      width={300}
+      width={512}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby V3 Cloud App by Forwardslash Development"

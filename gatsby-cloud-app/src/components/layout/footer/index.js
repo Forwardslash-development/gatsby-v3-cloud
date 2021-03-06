@@ -1,8 +1,7 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
-const Footer = ({ siteTitle }) => {
+const Footer = () => {
   return (
     <div
       style={{
@@ -12,7 +11,7 @@ const Footer = ({ siteTitle }) => {
       <Link
         to="/"
         style={{
-          color: `white`,
+          color: `blue`,
           textDecoration: `none`,
         }}
       >
